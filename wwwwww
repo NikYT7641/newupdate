@@ -1,0 +1,589 @@
+print("Gui Show Up") 
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/NikYT7641/www/main/www')))()
+
+local Window = OrionLib:MakeWindow({Name = "Legendary HUB (TDSBB) ONLY FOR PASHA (V1.95)", HidePremium = false, SaveConfig = true, ConfigFolder = "SirenHead Hub"})
+
+OrionLib:MakeNotification({
+	Name = "Hey!",
+	Content = " Hey Hello this version Hub is 1.95",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+local Tab = Window:MakeTab({
+	Name = "Free Towers",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Free Units"
+})
+ 
+Tab:AddButton({
+	Name = "Spawn Rifleman",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Rifleman" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Rich Man",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Rich Man" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn DJ",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "DJ" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Blaster",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Blaster" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+  	end    
+}) 
+
+Tab:AddButton({
+	Name = "Spawn Cold Gunner",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Cold Gunner" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Golden Puncher",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Golden Puncher" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Turret",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Turret" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Engineer",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Engineer" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Golden Gunner",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Golden Gunner" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Flamer",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Flamer" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Rocketer",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Rocketer" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Trapper",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Trapper" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Golden Flamer",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Golden Flamer" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Golden Minigunner",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Golden Minigunner" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Atomic Bomber",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Atomic Bomber" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Section:AddLabel("Version 1.95") 
+
+local Tab = Window:MakeTab({
+	Name = "Special Free Towers",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Free Units"
+})
+
+Tab:AddButton({
+	Name = "Spawn Water Blaster",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Water Blaster" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+
+Tab:AddButton({
+	Name = "Spawn Hacker",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Hacker" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Glitch",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Glitch" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+
+Tab:AddButton({
+	Name = "Spawn Grass",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Grass" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Caker",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Caker" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Void Gunner",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Void Gunner" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Golden Caker",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Golden Caker" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Baller",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Baller" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Void Baller!",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Void Baller" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+
+Tab:AddButton({
+	Name = "Spawn Boss",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Boss" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Fireworker!",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Fireworker" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Snowman",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Snowman" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+}) 
+
+Tab:AddButton({
+	Name = "Spawn Gifter",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Gifter" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Turkey Eater",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Turkey Eater" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+
+Tab:AddButton({
+	Name = "Spawn Graveyard",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Graveyard" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn John Doe",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "John Doe" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Knight",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Knight" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Candy Eater",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Candy Eater" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Infector",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Infector" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+
+Tab:AddButton({
+	Name = "Spawn Party Commander",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Party Commander" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Toxic Blaster",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Toxic Blaster" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Party DJ",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Party DJ" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Frigidus",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Frigidus" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Reaper",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Reaper" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Knifer",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Knifer" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Forest Archer",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Forest Archer" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Troll",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Upgraded Robot" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Made By nikita"
+}) 
+
+Section:AddLabel("pon!") 
+
+
+
+local Newtabol = Window:MakeTab({
+	Name = "Gamepass Towers",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Newtabol:AddButton({
+	Name = "Spawn Robot (have a gamepass)",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Robot" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Newtabol:AddButton({
+	Name = "Spawn Zombie Healer",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Zombie Healer" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+
+
+local Adminyah = Window:MakeTab({
+	Name = "Admin towers",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Adminyah:AddButton({
+	Name = "Spawn The grass",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "the grass" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Adminyah:AddButton({
+	Name = "Spawn Clone()",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Clone()" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Adminyah:AddButton({
+	Name = "Spawn Poco x3 pro",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Poco x3 pro" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Adminyah:AddButton({
+	Name = "Spawn Minish",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Minish" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Adminyah:AddButton({
+	Name = "Spawn SUPREME RICH MAN",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "SUPREME RICH MAN" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Adminyah:AddButton({
+	Name = "Spawn Inferno",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Inferno" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+Adminyah:AddButton({
+	Name = "Spawn Titan Base",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Titan Base" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+local badgeonly = Window:MakeTab({
+	Name = "Something only towers",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+badgeonly:AddButton({
+	Name = "Spawn Booster",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Booster" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+badgeonly:AddButton({
+	Name = "Spawn Deadly Dark",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Deadly Dark" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+badgeonly:AddButton({
+	Name = "Spawn The upgraded robot",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "The Upgraded Robot" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+badgeonly:AddButton({
+	Name = "Spawn The Astronaut",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "The Astronaut" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+badgeonly:AddButton({
+	Name = "Spawn The Alien Base",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Alien Base" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
+
+badgeonly:AddButton({
+	Name = "Spawn Aquatic Guard",
+	Callback = function()
+      		local function getHeadPosition(SpawnTower) local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+ 
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Aquatic Guard" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end 
+ end    
+})
